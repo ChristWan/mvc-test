@@ -8,17 +8,9 @@
   height: 100px;
   margin-top: 170px;
   margin-left: 40px;
+  transition: transform 1s;
 }
 
 #function3 #square.active {
-  animation: change infinite ease-in-out alternate 1s;
-}
-
-@keyframes change {
-  0% {
-    margin-left: 40px;
-  }
-  100% {
-    margin-left: 330px;
-  }
+  transform: translateX(15vw);
 }
