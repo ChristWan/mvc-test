@@ -1,0 +1,22 @@
+#function4 #circle {
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 140px;
+  margin-left: 50%;
+  transform: translateX(-100px);
+}
+
+#function4 #circle.active {
+  animation: change2 linear infinite alternate 1s;
+}
+
+@keyframes change2 {
+  from {
+    background: red;
+  }
+  to {
+    background: blue;
+  }
+}

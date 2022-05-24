@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --public-url ./"
+  },
+  "name": "mvc-test",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

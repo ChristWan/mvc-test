@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+  overflow: hidden;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page > section {
+  border: 1px solid gray;
+  height: 50vh;
+  width: 50vw;
+}

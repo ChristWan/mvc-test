@@ -1,0 +1,22 @@
+#function2 .tab-bar {
+  display: flex;
+}
+
+#function2 .tab-bar > li {
+  border: 1px solid gray;
+  width: 50%;
+}
+
+#function2 .tab-bar > li.selected {
+  background: rgb(253, 221, 155);
+  color: white;
+}
+
+#function2 .tab-content > li {
+  display: none;
+}
+
+#function2 .tab-content > li.active {
+  display: block;
+}
+

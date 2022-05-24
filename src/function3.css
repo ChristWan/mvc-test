@@ -1,0 +1,24 @@
+#function3 {
+
+}
+
+#function3 #square {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin-top: 170px;
+  margin-left: 40px;
+}
+
+#function3 #square.active {
+  animation: change infinite ease-in-out alternate 1s;
+}
+
+@keyframes change {
+  0% {
+    margin-left: 40px;
+  }
+  100% {
+    margin-left: 330px;
+  }
+}

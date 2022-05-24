@@ -1,0 +1,17 @@
+#function1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#function1 #number {
+  margin-bottom: 20px;
+  font-size: 3em;
+}
+
+#function1 button {
+  padding: 4px 8px;
+  font-size: 20px;
+}
+
