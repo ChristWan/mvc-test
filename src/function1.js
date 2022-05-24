@@ -6,7 +6,7 @@ const $add = $('#function1 #add1')
 const $minus = $('#function1 #minus1')
 const $mul = $('#function1 #multiply2')
 const $divide = $('#function1 #divide2')
-let n = parseInt(localStorage.getItem('n') || 100)
+let n = parseInt(localStorage.getItem('n') ?? 100)
 
 $number.text(n)
 
